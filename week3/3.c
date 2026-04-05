@@ -46,7 +46,7 @@ int main()
             } 
         printf("Enter the marks  of student %d : ",i+1);
         if(scanf("%f",&a->marks)!=1 || a->marks <=0  || a->marks>=100){
-            printf("enter valid marks  between 0-100\n");
+            printf("enter valid marks Between 0-100\n");
             return 1;
         } }
         assign_grade(data,n);
