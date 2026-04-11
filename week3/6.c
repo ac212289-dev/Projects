@@ -1,3 +1,4 @@
+// vehicle parking managment system
 #include <stdio.h>
 #include <string.h>
 
@@ -127,7 +128,7 @@ void displaySlots(struct Slot *s, int n) {
 // Update slot flags
 void updateSlotStatus(struct Slot *s, int n) {
     int slot, choice;
-    printf("Enter slot number: ");
+    printf("Enter slot number:");
     scanf("%d", &slot);
 
     printf("1. Mark VIP\n");
