@@ -166,7 +166,7 @@ void checkPermission(struct File *f, int count) {
             if(f[i].perm & EXEC)
                 printf("Execute allowed\n");
             else
-                printf("Execute not allowed\n");
+                printf("Execute not allowed.\n");
 
             return;
         }
