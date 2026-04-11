@@ -114,7 +114,7 @@ void displaySlots(struct Slot *s, int n) {
         printf("\nVehicle: %s", s[i].vehicleNo);
 
         printf("\nStatus: ");
-        if(s[i].status & OCCUPIED) printf("Occupied ");
+        if(s[i].status & OCCUPIED) printf("O ccupied ");
         else printf("Empty ");
 
         if(s[i].status & VIP) printf("VIP ");
@@ -151,7 +151,7 @@ void updateSlotStatus(struct Slot *s, int n) {
             s[slot-1].status &= ~RESERVED;
             break;
         default:
-            printf("Invalid choice!\n");
+            printf("Invalid choices!\n");
             return;
     }
 
