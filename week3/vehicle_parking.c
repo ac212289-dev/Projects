@@ -108,7 +108,7 @@ void removeVehicle(struct Slot *s, int n) {
     printf("Vehicle removed!\n");
 }
 
-// Display slots
+// Display slotss
 void displaySlots(struct Slot *s, int n) {
     for(int i = 0; i < n; i++) {
         printf("\nSlot %d", s[i].slotNo);
